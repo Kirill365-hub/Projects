@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <filter id="Rounded_Rectangle_4" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#4d4d89" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_8040" data-name="Сгруппировать 8040" transform="translate(-366 -3621)">
+    <g id="Сгруппировать_8038" data-name="Сгруппировать 8038">
+      <g id="Сгруппировать_8041" data-name="Сгруппировать 8041">
+        <g transform="matrix(1, 0, 0, 1, 366, 3621)" filter="url(#Rounded_Rectangle_4)">
+          <path id="Rounded_Rectangle_4-2" data-name="Rounded Rectangle 4" d="M10,0H38A10,10,0,0,1,48,10V38A10,10,0,0,1,38,48H10A10,10,0,0,1,0,38V10A10,10,0,0,1,10,0Z" transform="translate(9 7)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

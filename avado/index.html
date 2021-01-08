@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/dist/style.css">
+
+<body>
+  <header class="header">
+    <div class="container_header">
+      <div class="header_left">
+        <div class="burger"></div>
+        <img src="img/logo.svg" alt="Logo" class="logo_icon">
+        <p class="logo_text">Avado</p>
+        <img src="/img/profile.svg" alt="" class="profile_icon">
+        <p class="header_text">Performers</p>
+      </div>
+      <div class="header_right">
+        <img src="img/chat.svg" alt="Chat" class="icon_chat">
+        <img src="img/bell.svg" alt="Notifications" class="icon_bell">
+        <img src="img/user_photo.jpg" alt="Avatar" class="profile_avatar">
+        <p class="user_name">Dacota.S</p>
+        <img src="img/каретка.svg" alt="" class="caret">
+        <p class="language_text">EN</p>
+        <img src="img/language.svg" alt="Language" class="icon_language">
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- /.header -->
+  <img class="bg_img" src="img/bg.png" alt="">
+  <div class="nav">
+    <a href="#" class="nav_link">Main page</a>
+    <img class="nav_icon" src="img/next.svg" alt="">
+    <a href="#" class="nav_link">Fix price market</a>
+  </div>
+  <div class="content_container">
+    <div class="left_sidebar">
+      <h2 class="sidebar_title">Fix price
+        market</h2>
+      <div class="sidebar_inner">
+        <h3 class="category_title">Price</h3>
+        <div class="price_inner">
+          <p class="price_from">from</p>
+          <input class="price" type="text" placeholder="100">
+          <p class="price_from">$C</p>
+        </div>
+        <div class="price_inner">
+          <p class="price_from">to</p>
+          <input class="price price_2" type="text" placeholder="200">
+          <p class="price_from">$C</p>
+        </div>
+        <div class="range_inner">
+          <p class="range_price">$C10</p>
+          <p class="range_price">$C1250</p>
+          <div class="slider">
+            <div class="bar">
+              <div class="lp" data-pos="0.1"></div>
+              <div class="rp" data-pos="0.8"></div>
+            </div>
+          </div>
+          <!-- https://jsfiddle.net/twobomb/120n2arx/ ссылка на ползунок -->
+        </div>
+        <h3 class="category_title">Category</h3>
+        <!-- category_row_1 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_1" value="yes">
+          <label for="checkbox_1"></label>
+          <!-- dropdown_1 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn one_row sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Contraction works</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_2 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_2" value="yes">
+          <label for="checkbox_2"></label>
+          <!-- dropdown_2 -->
+          <div class="dropdown sidebar_drop ">
+            <button class="dropbtn sidebar_btn">
+              <div class="dropbtn_text">
+                <p class="btn_content">Interior design and
+                  finishing works</p>
+                <img class="drop_icon drop_2" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_3 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_3" value="yes">
+          <label for="checkbox_3"></label>
+          <!-- dropdown_3 -->
+          <div class="dropdown sidebar_drop ">
+            <button class="dropbtn one_row sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Domestic services</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_4 -->
+        <div class="category_row no_check">
+          <p class="category_text">Nursing servises</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_5 -->
+        <div class="category_row no_check">
+          <p class="category_text">Seamstress services</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_5 -->
+        <div class="category_row no_check active">
+          <p class="category_text active">Nanny</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- ./category_row -->
+        <div class="category_row_content active">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_4" value="yes">
+          <label for="checkbox_4"></label>
+          <p class="row_text">infant</p>
+        </div>
+        <!-- ./category_row_content_1 -->
+        <div class="category_row_content active">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_5" value="yes">
+          <label for="checkbox_5"></label>
+          <p class="row_text">kids 3 - 4 y.o.</p>
+        </div>
+        <!-- ./category_row_content_2 -->
+        <div class="category_row_content active">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_6" value="yes">
+          <label for="checkbox_6"></label>
+          <p class="row_text">kids 5 - 6 y.o.</p>
+        </div>
+        <!-- ./category_row_content_3 -->
+        <div class="category_row_content active">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_7" value="yes">
+          <label for="checkbox_7"></label>
+          <p class="row_text">children 7 - 8 y.o.</p>
+        </div>
+        <!-- ./category_row_content_4 -->
+        <div class="category_row_content active">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_8" value="yes">
+          <label for="checkbox_8"></label>
+          <p class="row_text">children 9 - 10 y.o.</p>
+        </div>
+        <!-- ./category_row_content_5 -->
+        <div class="category_row_content active">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_9" value="yes">
+          <label for="checkbox_9"></label>
+          <p class="row_text">teenagers 10 - 16 y.o.</p>
+        </div>
+        <!-- ./category_row_content_6 -->
+        <!-- category_row_6 -->
+        <div class="category_row no_check">
+          <p class="category_text">Shoe repair</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_7 -->
+        <div class="category_row no_check">
+          <p class="category_text">Cook services</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_8 -->
+        <div class="category_row no_check">
+          <p class="category_text">Washing and ironing</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_9 -->
+        <div class="category_row no_check">
+          <p class="category_text">Washing and ironing</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_10 -->
+        <div class="category_row no_check">
+          <p class="category_text">Bag repair</p>
+          <img src="img/check_green.svg" alt="" class="drop_icon  no_check_icon">
+        </div>
+        <!-- category_row_4 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_10" value="yes">
+          <label for="checkbox_10"></label>
+          <!-- dropdown_4 -->
+          <div class="dropdown sidebar_drop sidebar_btn">
+            <button class="dropbtn sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Architects, builders
+                  and engineers</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_5 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_11" value="yes">
+          <label for="checkbox_11"></label>
+          <!-- dropdown_5 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Repair and main-tenance of equipment</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_6 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_12" value="yes">
+          <label for="checkbox_12"></label>
+          <!-- dropdown_6 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Floor laying and woodworking</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_7 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_13" value="yes">
+          <label for="checkbox_13"></label>
+          <!-- dropdown_7 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Logistic and warehouse services</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_8 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_14" value="yes">
+          <label for="checkbox_14"></label>
+          <!-- dropdown_8 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn one_row sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Furniture works</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_9 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_15" value="yes">
+          <label for="checkbox_15"></label>
+          <!-- dropdown_9 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn one_row sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Landscaping works</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_10 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_16" value="yes">
+          <label for="checkbox_16"></label>
+          <!-- dropdown_10 -->
+          <div class="dropdown sidebar_drop ">
+            <button class="dropbtn sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Auto repair and roadside assistance</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_11 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_17" value="yes">
+          <label for="checkbox_17"></label>
+          <!-- dropdown_11 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn one_row sidebar_btn">
+              <div class="btn_content ">
+                <p class="btn_text">Business services</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <!-- category_row_12 dropbox -->
+        <div class="category_row">
+          <input type="checkbox" class="custom-checkbox" id="checkbox_18" value="yes">
+          <label for="checkbox_18"></label>
+          <!-- dropdown_12 -->
+          <div class="dropdown sidebar_drop">
+            <button class="dropbtn one_row sidebar_btn">
+              <div class="btn_content">
+                <p class="btn_text">Services for animals</p>
+                <img class="drop_icon" src="img/check_green.svg" alt="">
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="category_title">Postal code</h3>
+        <form class="form_search">
+          <input class="search post" type="text" placeholder="CN 205 R12">
+          <button class="search_btn post_btn" type="submit">
+            <img src="img/check_white.svg" alt="" class="">
+          </button>
+        </form>
+        <p class="clean">clear filters</p>
+      </div>
+      <!-- ./sidebar_inner -->
+    </div>
+    <!-- ./left_sidebar -->
+    <div class="main_content">
+      <div class="registranion">
+        <h2 class="orders">Orders</h2>
+        <div class="reg_header">
+          <img src="img/Avocado.png" alt="" class="reg_img">
+          <h2 class="reg_title">Are you a master? Provide orders for yourself, your team or company</h2>
+        </div>
+        <!-- 1 case_inner -->
+        <div class="case_inner">
+          <img src="img/check.svg" alt="" class="check_icon">
+          <p class="case_text">stable flow of orders every day</p>
+        </div>
+        <!-- 2 case_inner -->
+        <div class="case_inner">
+          <img src="img/check.svg" alt="" class="check_icon">
+          <p class="case_text">you yourself choose orders and customers, offer your conditions</p>
+        </div>
+        <!-- 3 case_inner -->
+        <div class="case_inner">
+          <img src="img/check.svg" alt="" class="check_icon">
+          <p class="case_text">negotiate directly without commissions and intermediaries</p>
+        </div>
+        <div class="reg_inner">
+          <button class="reg_btn">Registration</button>
+          <p class="reg_text">Working conditions on the Avado</p>
+        </div>
+      </div>
+      <!-- /.registranion -->
+      <div class="options">
+        <div class="options_title">All fixed services</div>
+        <div class="options_inner">
+          <div class="dropdown_inner">
+            <!-- 1 dropdown -->
+            <div class="dropdown">
+              <button class="dropbtn">Sort by cost
+                <img class="dropdown_m_content" src="img/check_green.svg" alt="">
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <!-- 2 dropdown -->
+            <div class="dropdown drop_right">
+              <button class="dropbtn">Sort by raiting
+                <img class="dropdown_m_content" src="img/check_green.svg" alt="">
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </div>
+          <form class="form_search">
+            <input class="search" type="text" placeholder="fixed service name">
+            <img src="img/search.svg" alt="" class="search_icon">
+            <button class="search_btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      <!-- ./options -->
+      <div class="item_inner ">
+        <!-- 1 item -->
+        <div class="service_item">
+          <img src="img/services/1.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">500 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 item -->
+        <div class="service_item">
+          <img src="img/services/2.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">65 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 item -->
+        <div class="service_item">
+          <img src="img/services/3.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">100 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4 item -->
+        <div class="service_item">
+          <img src="img/services/4.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">250 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 5 item -->
+        <div class="service_item">
+          <img src="img/services/5.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">25 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 6 item -->
+        <div class="service_item">
+          <img src="img/services/6.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">12 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 7 item -->
+        <div class="service_item">
+          <img src="img/services/7.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">6 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 8 item -->
+        <div class="service_item">
+          <img src="img/services/8.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">1500 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 9 item -->
+        <div class="service_item">
+          <img src="img/services/9.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">500 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 10 item -->
+        <div class="service_item">
+          <img src="img/services/10.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">125 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 11 item -->
+        <div class="service_item">
+          <img src="img/services/11.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">75 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 12 item -->
+        <div class="service_item">
+          <img src="img/services/12.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">22 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 13 item -->
+        <div class="service_item">
+          <img src="img/services/13.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">340 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 14 item -->
+        <div class="service_item">
+          <img src="img/services/14.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">2000 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 15 item -->
+        <div class="service_item">
+          <img src="img/services/15.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">700 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 16 item -->
+        <div class="service_item">
+          <img src="img/services/16.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">450 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 17 item -->
+        <div class="service_item">
+          <img src="img/services/17.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">100 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 18 item -->
+        <div class="service_item">
+          <img src="img/services/18.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">300 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 19 item -->
+        <div class="service_item">
+          <img src="img/services/19.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">180 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 20 item -->
+        <div class="service_item">
+          <img src="img/services/20.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">18 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 21 item -->
+        <div class="service_item">
+          <img src="img/services/21.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">120 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 22 item -->
+        <div class="service_item">
+          <img src="img/services/22.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">560 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 23 item -->
+        <div class="service_item">
+          <img src="img/services/8.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">21 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 24 item -->
+        <div class="service_item">
+          <img src="img/services/24.jpg" alt="Service" class="item_img">
+          <div class="item_info">
+            <p class="info_text">Nanny for infant in your
+              location for full day and
+              part time</p>
+            <div class="authour_inner">
+              <div class="left">
+                <img src="img/authour.svg" alt="" class="authour_icon">
+                <p class="authour_name">John Green</p>
+              </div>
+              <div class="right">
+                <p class="cost">34 $C</p>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="raiting_inner">
+              <div class="left">
+                <img src="img/comment.svg" alt="" class="raiting_icon">
+                <p class="raiting">+50(-2)</p>
+              </div>
+              <div class="right">
+                <img src="img/star.svg" alt="" class="raiting_star">
+                <p class="star_number">4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./service_item -->
+      </div>
+      <!-- ./item_inner -->
+      <div class="pages">
+        <img class="prev" src="img/next.svg" alt="">
+        <p class="page_number">1</p>
+        <p class="page_number active">2</p>
+        <p class="page_number">3</p>
+        <p class="page_number">...</p>
+        <p class="page_number">15</p>
+        <img class="next" src="img/next.svg" alt="">
+      </div>
+    </div>
+    <!-- /.main_content -->
+  </div>
+  <!-- /.content_container -->
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="footer_links_inner">
+        <div class="footer_services">
+          <h3 class="footer_title">Услугодателям</h3>
+          <a href="#" class="footer_link">Посмотреть категории</a>
+          <a href="#" class="footer_link">Свежие услуги</a>
+          <div class="sing_up_inner">
+            <a href="#" class="footer_link">Войти</a>
+            <p class="footer_text">или</p>
+            <a href="#" class="footer_link">зарегестрироваться</a>
+          </div>
+          <a href="#" class="footer_link">Поддержка</a>
+          <a href="#" class="footer_link">Помощь</a>
+        </div>
+        <!-- ./footer_services -->
+        <div class="footer_about">
+          <h3 class="footer_title">О компании</h3>
+          <a href="#" class="footer_link">О нас</a>
+          <a href="#" class="footer_link">Новости</a>
+          <a href="#" class="footer_link">Вакансии</a>
+        </div>
+        <!-- ./footer_about -->
+        <div class="footer_documents">
+          <h3 class="footer_title">Положения</h3>
+          <a href="#" class="footer_link">Правила платформы</a>
+          <a href="#" class="footer_link">Пользовательское соглашение</a>
+          <a href="#" class="footer_link">Политика конфиденциальности</a>
+          <a href="#" class="footer_link">Канадский бизнес</a>
+        </div>
+        <!-- ./footer_documents -->
+        <div class="footer_contacts">
+          <h3 class="footer_title">Контакты</h3>
+          <p class="footer_contact">600-000-00000</p>
+          <p class="footer_contact">info@avacoda.com</p>
+          <div class="footer_icons">
+            <a href="#" class="icon_link">
+              <img src="img/instagram.svg" alt="Instagram" class="social_icon">
+            </a>
+            <a href="#" class="icon_link">
+              <img src="img/fb_icon.svg" alt="Facebook" class="social_icon">
+            </a>
+            <a href="#" class="icon_link">
+              <img src="img/twitter.svg" alt="twitter" class="social_icon">
+            </a>
+          </div>
+        </div>
+        <!-- ./footer_contacts -->
+      </div>
+      <!-- ./footer_links_inner -->
+      <div class="footer_bottom">
+        <div class="line_mobile"></div>
+        <div class="footer_left">
+          <div class="logo_inner">
+            <img src="img/logo.svg" alt="" class="footer_logo">
+            <div class="logo_text">AVACADO</div>
+          </div>
+          <p class="copyright">© 2020 Avacado</p>
+          <div class="footer_icons footer_icons_mobile">
+            <a href="#" class="icon_link">
+              <img src="img/instagram.svg" alt="Instagram" class="social_icon">
+            </a>
+            <a href="#" class="icon_link">
+              <img src="img/fb_icon.svg" alt="Facebook" class="social_icon">
+            </a>
+            <a href="#" class="icon_link">
+              <img src="img/twitter.svg" alt="twitter" class="social_icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="footer_right">
+          <div class="footer_title title_btn">Скачать приложение</div>
+          <button class="download">
+            <div class="download_inner">
+              <img src="img/apple.svg" alt="">
+              <p class="btn_text"> <span>Download on the</span> <br> App Store</p>
+            </div>
+          </button>
+          <button class="download download_gp">
+            <div class="download_inner">
+              <img src="img/google-play (1).svg" alt="">
+              <p class="btn_text">Google <span class="gp"> play</span></p>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- /.footer_bottom -->
+    </div>
+    <!-- ./footer_container -->
+    <div class="line_mobile bottom"></div>
+    <p class="copyright copy_mobile">© 2020 Avacado</p>
+  </footer>
+</body>
+
+</html>
