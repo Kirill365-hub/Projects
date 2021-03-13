@@ -151,6 +151,7 @@ li {
 .item_content {
   text-align: center;
   flex-grow: 1;
+  padding-bottom: 20px;
 }
 .item_price {
   margin-top: 30px;
