@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Land Design</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_wrapper">
+      <img src="img/logo.png" alt="" class="logo">
+      <ul class="menu_1">
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#intro">Главная</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#about_course">О курсе</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#about_authour">Об авторе</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#prices">Цены и тарифы</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#rewievs">Отзывы</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#questions">Вопросы и ответы</a></li>
+      </ul>
+      <!-- <?php wp_nav_menu( [ 'container' => '',
+                            'menu_class' => 'menu_1' ] ); ?> -->
+      <div class="social_header">
+        <a class="email_link" href="mailto:bushaala@yandex.ru">
+          <img src="img/mail_icon.svg" alt="" class="header_icon">bushaala@yandex.ru</a>
+        <a class="tel_link" href="tel:+79156577599">
+          <img src="img/phone_icon.svg" alt="" class="header_icon">+7 (915) 657-75-99</a>
+      </div>
+      <button class="nav_toggle" id="nav_toggle" type="button">
+        <span class="nav_toggle_item">n</span>
+      </button>
+    </div>
+    <div class="mobile_header_wrapper ">
+      <ul class="menu_2">
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#intro">Главная</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#about_course">О курсе</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#about_authour">Об авторе</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#prices">Цены и тарифы</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#rewievs">Отзывы</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link" data-scroll="#questions">Вопросы и ответы</a></li>
+      </ul>
+      <!-- <?php wp_nav_menu( [ 'container' => '','menu_class' => 'menu_2' ] ); ?> -->
+    </div>
+  </header>
+  <div class="intro" id="intro">
+    <div class="intro_content">
+      <h1 class="intro_title">Сам себе <br> ландшафтный дизайнер</h1>
+      <p class="intro_suptitle">Запишитесь на курс и научитесь с нуля зонировать участок, подбирать растения и создайте
+        проект участка
+      </p>
+      <button class="sign_up">Записаться</button>
+      <div class="scroll" data-scroll="#video">
+        <img class="mouse" src="img/mouse.svg" alt="">
+        <img class="arrow" src="img/down-arrow.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container" id="video">
+    <img src="img/bg/1.png" alt="" class="right_leaves_1">
+    <h2 class="main_title">Познакомьтесь с нами поближе, посмотрев видео о курсе
+      “Сам себе ландшафтный дизайнер”</h2>
+    <div class="video"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/G3sv2Mlriv4"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="container">
+    <div class="about_course" id="about_course">
+      <h2 class="main_title">О нашем курсе</h2>
+      <img class="left_rose_1" src="img/bg/2.png" alt="">
+      <img class="right_leaves_2" src="img/bg/3.png" alt="">
+      <div class="about_item">
+        <div class="about_img_bg">
+          <img src="img/about/about_1.png" alt="" class="about_item_img">
+        </div>
+        <div>
+          <p class="about_item_title">My Land Desing</p>
+          <p class="about_item_content">Онлайн школа ландшафтного дизайна, где все объясняется просто и понятно. Вести
+            курс будет преподаватель с опытом преподавания ландшафтного дизайна и практического опыта работ на
+            объектах
+            более 15 лет.
+          </p>
+        </div>
+      </div>
+      <div class="about_item item_ch">
+        <div class="about_img_bg">
+          <img src="img/about/about_2.png" alt="" class="about_item_img">
+        </div>
+        <div>
+          <p class="about_item_title">Постоянная поддержка</p>
+          <p class="about_item_content">Вы задаете вопросы непосредственно после каждого урока, а также во время всего
+            курса. Преподаватель указывает на ваши ошибки и помогает их устранить,
+            работая с вами над Вашим индивидуальным проектом.
+          </p>
+        </div>
+      </div>
+      <div class="about_item">
+        <div class="about_img_bg">
+          <img src="img/about/about_3.png" alt="" class="about_item_img">
+        </div>
+        <div>
+          <p class="about_item_title">Гарантия результата</p>
+          <p class="about_item_content">Мы гарантируем, что при выполнении всех домашних заданий и рекомендаций
+            преподавателя Вы 100% создадите эскизный проект для
+            благоустройства вашего участка.
+          </p>
+        </div>
+      </div>
+      <div class="about_item item_ch">
+        <div class="about_img_bg">
+          <img src="img/about/about_4.png" alt="" class="about_item_img">
+        </div>
+        <div>
+          <p class="about_item_title">Сертификат курса</p>
+          <p class="about_item_content">Сертификат высылается в электронном виде - Вы можете распечатать его в любом
+            удобном для Вас месте.
+            Но все же самое главное - это знания, которые Вы получите и проект, который вы с любовью сделаете сами!
+          </p>
+        </div>
+      </div>
+      <div class="about_item">
+        <div class="about_img_bg">
+          <img src="img/about/about_5.png" alt="" class="about_item_img">
+        </div>
+        <div>
+          <p class="about_item_title">Уверенность</p>
+          <p class="about_item_content">После курса у вас будет понимание что <br> делать на участке и в какой<br>
+            последовательности
+          </p>
+        </div>
+      </div>
+      <!-- ./about_item -->
+
+      <div class="button_wrapper">
+        <button class="sign_up about_btn">Записаться</button>
+        <p class="button_suptitle">Цена курса от 10900 руб.</p>
+      </div>
+    </div>
+    <!-- ./about_course -->
+  </div>
+  <!-- ./container -->
+  <div class="course_steps">
+    <div class="container">
+      <h2 class="main_title white_title">Курс “Сам себе ландшафтный дизайнер”</h2>
+      <div class="course_steps_suptitle_wrapper">
+        <img src="img/clock.svg" alt="">
+        <p class="course_steps_suptitle"><span>Начало курса:</span> дата будет меняться</p>
+      </div>
+    </div>
+    <!-- ./container -->
+    <img src="img/bg/4.png" alt="" class="rose_4">
+    <img src="img/bg/5.png" alt="" class="rose_5">
+    <div class="col_wrapper">
+      <div class="col_1">
+        <div class="step_item">
+          <div class="number">
+            <span class="number_text">1</span>
+            <img class="step_icon" src="img/step_icon.png" alt="">
+          </div>
+          <div class="step_title">Продолжительность курса</div>
+          <div class="step_content">10 (11) уроков <br>
+            5 недель</div>
+        </div>
+        <div class="step_item">
+          <div class="number">
+            <span class="number_text">2</span>
+            <img class="step_icon" src="img/step_icon.png" alt="">
+          </div>
+          <div class="step_title">Формат занятий</div>
+          <div class="step_content">Живые уроки <br>с преподавателем</div>
+        </div>
+        <div class="step_item">
+          <div class="number">
+            <span class="number_text">3</span>
+            <img class="step_icon" src="img/step_icon.png" alt="">
+          </div>
+          <div class="step_title">Длительность урока</div>
+          <div class="step_content">1,5 часа + сессия ответов на вопросы, <br>в среднем 2 часа</div>
+        </div>
+      </div>
+      <div class="col_2">
+        <div>
+          <div class="step_item">
+            <div class="number">
+              <span class="number_text">4</span>
+              <img class="step_icon" src="img/step_icon.png" alt="">
+            </div>
+            <div class="step_title">Домашние задания</div>
+            <div class="step_content">К каждому уроку с проверкой.
+              К каждому заданию – подробная
+              обратная связь
+            </div>
+          </div>
+          <div class="step_item">
+            <div class="number">
+              <span class="number_text">5</span>
+              <img class="step_icon" src="img/step_icon.png" alt="">
+            </div>
+            <div class="step_title">Помощь преподавателя
+              вне уроков</div>
+            <div class="step_content">В течении курса Вы можете задавать
+              вопросы по темам курса
+              предодавателю
+            </div>
+          </div>
+        </div>
+        <div class="col_3">
+          <div class="step_item">
+            <div class="number">
+              <span class="number_text">6</span>
+              <img class="step_icon" src="img/step_icon.png" alt="">
+            </div>
+            <div class="step_title">По окончании курса:</div>
+            <div class="step_content">Сертификат об окончании курса. И главное: дизайн-проект вашего участка,
+              выполненный Вами. ЭТОГО НЕ ДЕЛАЕТ НИКТО!
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ./col_2 -->
+    </div>
+    <!-- ./col_wrapper -->
+    <div class="button_wrapper">
+      <button class="sign_up step_btn ">Записаться</button>
+    </div>
+  </div>
+  <!-- ./course_steps -->
+  <div class="container">
+    <div class="features">
+      <h2 class="main_title">Записавшись на курс, Вы получите:</h2>
+      <img src="img/bg/6.png" alt="" class="rose_6">
+      <img src="img/bg/7.png" alt="" class="rose_7">
+      <div class="feature_wrapper">
+        <ul class="left">
+          <li class="feature"><span>&#8226</span>10 (11) занятий с преподавателем один на один, после которых Вы
+            будете
+            четко знать, что
+            делать на участке</li>
+          <li class="feature"><span>&#8226</span>Дизайн – проект участка будет разработан под руководством
+            ландшафтного
+            дизайнера с более,
+            чем 15 летним опытом разработки и реализации проектов
+          </li>
+          <li class="feature"><span>&#8226</span>Домашние задания и их проверка лично автором курса
+          </li>
+          <li class="feature"><span>&#8226</span>Курс проходите в комфортной домашней обстановке
+          </li>
+          <li class="feature"><span>&#8226</span>Вы сами сделаете дизайн – проект участка и дендроплан
+          </li>
+          <li class="feature"><span>&#8226</span>Домашние задания выполняются за 2-3 часа
+          </li>
+          <li class="feature"><span>&#8226</span>Получите реальные знания, которые примените на практике
+          </li>
+        </ul>
+        <ul class="right">
+          <li class="feature"><span>&#8226</span>Для тарифа «Себе любимому» проект будет отрисован профессионалом в
+            компьютерной графике + доп. урок «На чем обманывают прорабы»</li>
+          <li class="feature"><span>&#8226</span>Сертификат по окончании курса
+          </li>
+          <li class="feature"><span>&#8226</span>Будете разговаривать с исполнителями работ на одном языке
+          </li>
+          <li class="feature"><span>&#8226</span>Вы сэкономите немалые деньги на услугах ландшафтного бюро
+          </li>
+          <li class="feature"><span>&#8226</span>Многое сможете сделать своими руками
+          </li>
+          <li class="feature"><span>&#8226</span>Ответы на вопросы в течение всего курса
+          </li>
+          <li class="feature"><span>&#8226</span>Подарки отличникам
+          </li>
+        </ul>
+      </div>
+      <!-- ./feature_wrapper -->
+      <div class="button_wrapper">
+        <button class="sign_up about_btn">Записаться</button>
+        <p class="button_suptitle">Цена курса от 10900 руб.</p>
+      </div>
+    </div>
+    <!-- ./features -->
+    <div class="tools">
+      <h2 class="main_title">Для прохождения курса Вам понадобится</h2>
+      <img src="img/bg/8.png" alt="" class="rose_8">
+      <div class="tools_wrapper">
+        <div class="tools_item">
+          <div class="tool_header">
+            <p>Ситуационный план вашего участка</p>
+          </div>
+          <img src="img/tools/1.jpg" alt="" class="tool_img">
+        </div>
+        <div class="tools_item">
+          <div class="tool_header">
+            <p>Рулетка для замеров</p>
+          </div>
+          <img src="img/tools/2.jpg" alt="" class="tool_img">
+        </div>
+        <div class="tools_item">
+          <div class="tool_header">
+            <p>Бумага миллиметровка</p>
+          </div>
+          <img src="img/tools/3.jpg" alt="" class="tool_img">
+        </div>
+        <div class="tools_item">
+          <div class="tool_header">
+            <p>Линейка, карандаши, краски</p>
+          </div>
+          <img src="img/tools/4.jpg" alt="" class="tool_img">
+        </div>
+        <div class="tools_item">
+          <div class="tool_header">
+            <p>Атлас-определитель растений или <br> садовая энциклопедия</p>
+          </div>
+          <img src="img/tools/5.jpg" alt="" class="tool_img">
+        </div>
+        <div class="tools_item">
+          <div class="tool_header">
+            <p>Желание учиться</p>
+          </div>
+          <img src="img/tools/6.jpg" alt="" class="tool_img">
+        </div>
+      </div>
+    </div>
+    <!-- ./tools -->
+    <div class="about_authour" id="about_authour">
+      <h2 class="main_title">Об авторе курса</h2>
+      <div class="authour_wrapper">
+        <div class="text_wrapper">
+          <p class="main_text"> <strong>Наталья Телесницкая</strong> – ландшафтный дизайнер с 15 летним стажем
+            разработки дизайн-проектов участков от стандартных 6 соток до 1 гектара.
+            Имеет высшее строительное образование по специальности
+            Промышленное и Гражданское строительство.</p>
+          <p>Опыт в преподавании спецдисциплин около 6 лет.</p>
+          <p>Сама окончила курсы с отличием ландшафтное проектирование, цветоводство,
+            садоводство, обрезка растений и многие другие.</p>
+          <p>За много лет работы мною разработано более 100 проектов. Участвую в реализации
+            разработанных проектов, т.е. имею практический опыт.</p>
+          <p>Приглашаю Вас посетить мой курс «Сам себе ландшафтный дизайнер», где чуть больше, чем за месяц Вы
+            получите
+            знания</p>
+          <p> о ландшафтном дизайне применительно
+            именно для вашего участка, а также дизайн-проект участка, по
+            которому Вы будете выполнять работы.</p>
+
+          <p>
+            Цель курса - не просто дать полезную информацию, а развить и закрепить в Вас знания по ландшафтному
+            дизайну,
+            помочь Вам нарисовать ваш проект! Только практика!
+          </p>
+          <button class="sign_up authour_btn">Записаться</button>
+        </div>
+        <div class="image_wrapper">
+          <div class="frame_1"></div>
+          <img src="img/authour.jpg" alt="" class="authour">
+          <div class="frame_2"></div>
+        </div>
+      </div>
+      <!-- ./authour_wrapper -->
+      <img class="rose_9" src="img/bg/9.png" alt="">
+    </div>
+    <!-- ./about_authour -->
+    <div class="prices" id="prices">
+      <h2 class="main_title">Цены и тарифы</h2>
+      <div class="prices_item_wrapper">
+        <div class="price_item">
+          <div class="header_price">
+            <p>Тариф “Для себя”</p>
+          </div>
+          <div class="price_content">
+            <ul class="price_ul">
+              <li class="feature price"><span>&#8226</span>Суть и смысл ландшафтного дизайна. Анализ участка.
+                Интересы всех пользователей участка.</li>
+              <li class="feature price"><span>&#8226</span>Ландшафтное проектирование. Зонирование.
+                Масштаб. Видовые точки.
+              </li>
+              <li class="feature price"><span>&#8226</span>Сад и огород. Коммуникации на участке.
+              </li>
+              <li class="feature price"><span>&#8226</span>Вертикальное озеленение. МАФ.
+              </li>
+              <li class="feature price"><span>&#8226</span>Типы покрытий. Технология их устройства.
+              </li>
+              <li class="feature price"><span>&#8226</span>Выбор и компановка растений. Клумба. Миксбордер.
+              </li>
+              <li class="feature price"><span>&#8226</span>Агротехника. Организация работ. Уход за садом.
+                Удобрения и инструменты.
+              </li>
+              <li class="feature price"><span>&#8226</span>Условные обозначения, оформление чертежа.
+              </li>
+              <li class="feature price"><span>&#8226</span>Технико-эккономические показатели проекта.
+              </li>
+              <li class="feature price"><span>&#8226</span>Защита проекта.
+              </li>
+            </ul>
+            <div class="price_wrapper">
+              <p class="price_old"><s>14 990 руб.</s></p>
+              <p class="price_new">10 900 руб.</p>
+            </div>
+            <div class="button_wrapper">
+              <button class="sign_up price_btn">Забронировать курс</button>
+            </div>
+          </div>
+        </div>
+        <div class="price_item">
+          <div class="header_price">
+            <p>Тариф “Для себя”</p>
+          </div>
+          <div class="price_content">
+            <ul class="price_ul">
+              <li class="feature price"><span>&#8226</span>Суть и смысл ландшафтного дизайна. Анализ участка.
+                Интересы всех пользователей участка.</li>
+              <li class="feature price"><span>&#8226</span>Ландшафтное проектирование. Зонирование.
+                Масштаб. Видовые точки.
+              </li>
+              <li class="feature price"><span>&#8226</span>Сад и огород. Коммуникации на участке.
+              </li>
+              <li class="feature price"><span>&#8226</span>Вертикальное озеленение. МАФ.
+              </li>
+              <li class="feature price"><span>&#8226</span>Типы покрытий. Технология их устройства.
+              </li>
+              <li class="feature price"><span>&#8226</span>Выбор и компановка растений. Клумба. Миксбордер.
+              </li>
+              <li class="feature price"><span>&#8226</span>Агротехника. Организация работ. Уход за садом.
+                Удобрения и инструменты.
+              </li>
+              <li class="feature price"><span>&#8226</span>Условные обозначения, оформление чертежа.
+              </li>
+              <li class="feature price"><span>&#8226</span>Технико-эккономические показатели проекта.
+              </li>
+              <li class="feature price"><span>&#8226</span>Защита проекта.
+              </li>
+              <li class="feature price"><span>&#8226</span>На чем обманывают прорабы.
+              </li>
+            </ul>
+            <div class="price_wrapper">
+              <p class="price_old"><s>19 990 руб.</s></p>
+              <p class="price_new">14 900 руб.</p>
+            </div>
+            <div class="button_wrapper">
+              <button class="sign_up price_btn">Забронировать курс</button>
+            </div>
+          </div>
+        </div>
+        <!-- ./price_item -->
+      </div>
+      <!-- ./prices_item_wrapper -->
+      <img src="img/bg/10.png" alt="" class="rose_10">
+    </div>
+    <!-- ./prices -->
+  </div>
+  <!-- ./container -->
+  <div class="rewievs" id="rewievs">
+    <div class="container">
+      <img class="rose_11" src="img/bg/11.png" alt="">
+      <h2 class="main_title white_title">Отзывы и достижения <br> наших учеников</h2>
+      <div class="slider_wrapper">
+        <div class="slide">
+          <div class="slide_item">
+            <div class="slide_header">
+              <img src="img/rewiev_1.jpg" alt="" class="rewiev_img">
+              <div>
+                <p class="name">Елена Протасова</p>
+                <p class="city">г. Санкт-Петербург </p>
+                <p class="date"> 02.05.2020</p>
+              </div>
+            </div>
+            <div class="rewiev_content">
+              Курс помог мне понять, что делать с участком, с чего
+              начинать.Раньше я понятия не имела, что такое дендроплан и ситуационный план. Но круче всего то, что в
+              итоге,
+              с помощью Натальи Борисовны, у меня есть дизайн проект участка, который я сделала сама
+              Однозначно рекомендую своим знакомым, кто не знает с чего начинать работы на земле и хочет не только
+              получить
+              знания, но и сэкономить на услугах ландшафтного бюро. В моем городе цена в несколько раз ваше цен на
+              курс.
+              Ещё раз больше спасибо!
+            </div>
+          </div>
+          <div class="bottom_img">
+            <img src="img/bottom_1.png" alt="" class="bottom_rewiev_img">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide_item">
+            <div class="slide_header">
+              <img src="img/rewiev_1.jpg" alt="" class="rewiev_img">
+              <div>
+                <p class="name">Елена Протасова</p>
+                <p class="city">г. Санкт-Петербург </p>
+                <p class="date"> 02.05.2020</p>
+              </div>
+            </div>
+            <div class="rewiev_content">
+              Курс помог мне понять, что делать с участком, с чего
+              начинать.Раньше я понятия не имела, что такое дендроплан и ситуационный план. Но круче всего то, что в
+              итоге,
+              с помощью Натальи Борисовны, у меня есть дизайн проект участка, который я сделала сама
+              Однозначно рекомендую своим знакомым, кто не знает с чего начинать работы на земле и хочет не только
+              получить
+              знания, но и сэкономить на услугах ландшафтного бюро. В моем городе цена в несколько раз ваше цен на
+              курс.
+              Ещё раз больше спасибо!
+            </div>
+          </div>
+          <div class="bottom_img">
+            <img src="img/bottom_1.png" alt="" class="bottom_rewiev_img">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide_item">
+            <div class="slide_header">
+              <img src="img/rewiev_1.jpg" alt="" class="rewiev_img">
+              <div>
+                <p class="name">Елена Протасова</p>
+                <p class="city">г. Санкт-Петербург </p>
+                <p class="date"> 02.05.2020</p>
+              </div>
+            </div>
+            <div class="rewiev_content">
+              Курс помог мне понять, что делать с участком, с чего
+              начинать.Раньше я понятия не имела, что такое дендроплан и ситуационный план. Но круче всего то, что в
+              итоге,
+              с помощью Натальи Борисовны, у меня есть дизайн проект участка, который я сделала сама
+              Однозначно рекомендую своим знакомым, кто не знает с чего начинать работы на земле и хочет не только
+              получить
+              знания, но и сэкономить на услугах ландшафтного бюро. В моем городе цена в несколько раз ваше цен на
+              курс.
+              Ещё раз больше спасибо!
+            </div>
+          </div>
+          <div class="bottom_img">
+            <img src="img/bottom_1.png" alt="" class="bottom_rewiev_img">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide_item">
+            <div class="slide_header">
+              <img src="img/rewiev_1.jpg" alt="" class="rewiev_img">
+              <div>
+                <p class="name">Елена Протасова</p>
+                <p class="city">г. Санкт-Петербург </p>
+                <p class="date"> 02.05.2020</p>
+              </div>
+            </div>
+            <div class="rewiev_content">
+              Курс помог мне понять, что делать с участком, с чего
+              начинать.Раньше я понятия не имела, что такое дендроплан и ситуационный план. Но круче всего то, что в
+              итоге,
+              с помощью Натальи Борисовны, у меня есть дизайн проект участка, который я сделала сама
+              Однозначно рекомендую своим знакомым, кто не знает с чего начинать работы на земле и хочет не только
+              получить
+              знания, но и сэкономить на услугах ландшафтного бюро. В моем городе цена в несколько раз ваше цен на
+              курс.
+              Ещё раз больше спасибо!
+            </div>
+          </div>
+          <div class="bottom_img">
+            <img src="img/bottom_1.png" alt="" class="bottom_rewiev_img">
+          </div>
+        </div>
+      </div>
+      <div class="button_wrapper">
+        <button class="sign_up rewiev_btn">Оставить отзыв</button>
+      </div>
+      <img class="rose_12" src="img/bg/12.png" alt="">
+      <img class="rose_13" src="img/bg/13.png" alt="">
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.rewievs -->
+  <div class="container">
+    <div class="works">
+      <h2 class="main_title">Дизайн-проекты наших учеников</h2>
+      <div class="slide_works">
+        <div class="slide_works_item">
+          <img src="img/w_1.jpg" alt="" class="work_img">
+          <p class="work_text">Виктория, г. Смоленск</p>
+        </div>
+        <div class="slide_works_item">
+          <img src="img/w_2.jpg" alt="" class="work_img">
+          <p class="work_text">Светлана, Казахстан</p>
+        </div>
+        <div class="slide_works_item">
+          <img src="img/w_3.jpg" alt="" class="work_img">
+          <p class="work_text">Виктория, г. Смоленск</p>
+        </div>
+        <div class="slide_works_item">
+          <img src="img/w_3.jpg" alt="" class="work_img">
+          <p class="work_text">Виктория, г. Смоленск</p>
+        </div>
+        <div class="slide_works_item">
+          <img src="img/w_3.jpg" alt="" class="work_img">
+          <p class="work_text">Виктория, г. Смоленск</p>
+        </div>
+      </div>
+      <!-- /.slide_works -->
+      <img src="img/bg/14.png" alt="" class="rose_14">
+    </div>
+    <!-- /.works -->
+    <div class="questions" id="questions">
+      <h2 class="main_title">Часто задаваемые вопросы</h2>
+      <div class="questions_wrapper">
+        <div class="questions_left">
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header">
+              <p class="title">Я совсем не умею рисовать. У меня точно получится?</p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header">
+              <p class="title">Что мне понадобится для прохождения курса?</p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header">
+              <p class="title">Как можно чему-то обучиться онлайн? Выберу живые курсы.</p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header">
+              <p class="title">Я не успею, ведь надо время и на уроки, и на дз. Я очень занят(а) </p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+        </div>
+        <div class="questions_right">
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header " data-collapse="#q_2">
+              <p class="title">В интернете столько информации, посмотрю там. </p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content" id="q_2">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header " data-collapse="#q_2">
+              <p class="title">Я и так много знаю!</p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content" id="q_2">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+          <div class="questions_item" id="accordeon">
+            <div class="questions_item_header " data-collapse="#q_2">
+              <p class="title">Сейчас обучаться не буду. Приду потом.</p>
+              <div class="questions_icon"></div>
+            </div>
+            <div class="questions_content" id="q_2">
+              План создается послойно, каждый слой чертится после объяснения преподавателя и не сложен. Начнем со
+              схемы на миллиметровой бумаге, после отрисовки эскзного
+              дизайн проекта для учеников тарифа «Себе любимому»
+              он будет выполнен в графическом редакторе
+              в течении 2 дней.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.questions_wrapper -->
+      <div class="button_wrapper">
+        <button class="sign_up about_btn">Записаться</button>
+      </div>
+      <img src="img/bg/15.png" alt="" class="rose_15">
+    </div>
+    <!-- /.questions -->
+  </div>
+  <!-- /.container -->
+  <footer class="footer">
+    <div class="header_wrapper footer_wrapper">
+      <img src="img/logo.png" alt="" class="logo">
+      <ul class="menu_1">
+        <li class="menu-item"><a href="#" class=" nav_link">Главная</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link">О курсе</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link">Об авторе</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link">Цены и тарифы</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link">Отзывы</a></li>
+        <li class="menu-item"><a href="#" class=" nav_link">Вопросы и ответы</a></li>
+      </ul>
+      <!-- <?php wp_nav_menu( [ 'container' => '',
+                              'menu_class' => 'menu_1' ] ); ?> -->
+      <div class="social_header">
+        <a class="email_link" href="mailto:bushaala@yandex.ru">
+          <img src="img/mail_icon.svg" alt="" class="header_icon">bushaala@yandex.ru</a>
+        <a class="tel_link" href="tel:+79156577599">
+          <img src="img/phone_icon.svg" alt="" class="header_icon">+7 (915) 657-75-99</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
